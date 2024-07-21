@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Educandário Ler e Aprender',
-  description: 'Educação infantil, hotelzinho e reforço',
+  description: 'Aqui seu filho Aprende! Do maternal ao quinto ano',
 };
 
 export default function RootLayout({
