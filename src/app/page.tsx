@@ -1,6 +1,5 @@
 import ActionButtons from '@/components/ActionButtons';
 import InstagramEmbedPic from '@/components/InstagramEmbedPic';
-import InstagramStructureVideo from '@/components/InstagramStructureVideo';
 import Image from 'next/image';
 import { FaInstagram } from 'react-icons/fa';
 
@@ -77,7 +76,7 @@ export default function Home() {
           <div className='bg-white p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105'>
             <h3 className='text-2xl font-bold mb-2'>Equipamentos</h3>
             <p className='text-gray-700'>
-              Banda larga de alta velocidade, smart TV's e muitos recursos
+              Banda larga de alta velocidade, smart TVs e muitos recursos
               multimídia pra uma melhor qualidade das aulas.
             </p>
           </div>
