@@ -12,7 +12,13 @@ export default function ActionButtons() {
       <Button onClick={() => push('/matricula')} className='p-8'>
         Fazer matrícula
       </Button>
-      <Button variant='outline' className='p-8'>
+      <Button
+        onClick={() =>
+          window.open('https://painel-ela.vercel.app/painel', '_blank')
+        }
+        variant='outline'
+        className='p-8'
+      >
         Portal do professor
       </Button>
     </div>
