@@ -1,7 +1,21 @@
+'use client';
+
 import React from 'react';
 import { FaInstagram } from 'react-icons/fa';
 
 const InstagramEmbedPic = ({ linkCode }: { linkCode: string }) => {
+  React.useEffect(() => {
+    // Ensure the Instagram embed script runs on the client side
+    const script = document.createElement('script');
+    script.src = '//www.instagram.com/embed.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <blockquote
       className='instagram-media'

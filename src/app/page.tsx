@@ -53,7 +53,7 @@ export default function Home() {
           </div>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
-          <InstagramEmbedPic linkCode='C8KzGwapAGR' />
+          <InstagramEmbedPic linkCode='C2ua5bqip-H' />
           <InstagramEmbedPic linkCode='C48ChcXuo_u' />
           <InstagramEmbedPic linkCode='C3qiIX4u3MR' />
         </div>
