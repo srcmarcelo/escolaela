@@ -1,7 +1,7 @@
 import ActionButtons from '@/components/ActionButtons';
 import InstagramEmbedPic from '@/components/InstagramEmbedPic';
 import Image from 'next/image';
-import { FaInstagram } from 'react-icons/fa';
+import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -94,6 +94,35 @@ export default function Home() {
               A segurança é nossa prioridade. Proporcionamos um ambiente seguro
               e acolhedor para todas as crianças.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className='mb-12 flex flex-col justify-center items-center'>
+        <h2 className='text-3xl font-bold mb-4 text-center'>
+          Temos hotelzinho!
+        </h2>
+        <div className='flex flex-col justify-center items-center text-center md:flex-row'>
+          <div className='flex flex-1 justify-center items-center'>
+            <InstagramEmbedPic linkCode='Cy3jIhUuWm0' />
+          </div>
+          <div className='flex flex-1 flex-col justify-center items-center text-center'>
+            <p className='text-lg text-gray-700 mb-4 sm:text-2xl sm:mb-8'>
+              Matricule seu filho no hotelzinho agora mesmo! Clique no botão
+              abaixo para solicitar mais informações e tire todas as suas
+              dúvidas com nossa equipe
+            </p>
+            <h2 className='w-full text-xl mb-6 font-bold text-gradient bg-gradient-to-r from-primary to-secondary text-transparent'>
+              Educandário Ler e Aprender
+            </h2>
+            <a
+              href='https://api.whatsapp.com/send?phone=5581993171853&text=Ol%C3%A1,%20tenho%20interesse%20no%20hotelzinho%20do%20Educand%C3%A1rio%20Ler%20e%20Aprender'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='inline-flex items-center px-8 py-4 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+            >
+              <FaWhatsapp className='mr-2' /> Solicitar Hotelzinho
+            </a>
           </div>
         </div>
       </section>
