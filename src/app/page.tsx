@@ -15,7 +15,7 @@ export default function Home() {
         <div className='flex flex-1 flex-col justify-center items-center text-center'>
           <p className='text-base text-gray-700 mb-4 sm:text-2xl sm:mb-8'>
             Há mais de 20 anos formando cidadãos por meio de uma educação
-            inclusiva e cristã.
+            inclusiva e cristã
           </p>
           <h2 className='w-full text-xl mb-8 font-bold text-gradient bg-gradient-to-r from-primary to-secondary text-transparent'>
             Educandário Ler e Aprender
