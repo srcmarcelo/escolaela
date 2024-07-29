@@ -39,7 +39,7 @@ export default function RootLayout({
                 </div>
                 <div>
                   <p className='text-gray-700'>Instagram:</p>
-                  <p>@educandariolereaprender</p>
+                  <p>@escolaela</p>
                 </div>
               </div>
               <div className='flex flex-col space-y-4 items-center justify-center'>
@@ -52,7 +52,7 @@ export default function RootLayout({
                   <FaWhatsapp className='mr-2' /> WhatsApp
                 </a>
                 <a
-                  href='https://www.instagram.com/educandariolereaprender'
+                  href='https://www.instagram.com/escolaela'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='inline-flex items-center px-8 py-4 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-pink-500 hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400'

@@ -268,7 +268,7 @@ const InstagramEmbedPic = ({ linkCode }: { linkCode: string }) => {
             rel='noopener noreferrer'
           >
             Uma publicação compartilhada por Educandário Ler e Aprender
-            (@educandariolereaprender)
+            (@escolaela)
           </a>
         </p>
       </div>

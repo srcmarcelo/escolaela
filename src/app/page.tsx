@@ -53,9 +53,9 @@ export default function Home() {
           </div>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
-          <InstagramEmbedPic linkCode='C2ua5bqip-H' />
+          {/* <InstagramEmbedPic linkCode='C2ua5bqip-H' />
           <InstagramEmbedPic linkCode='C48ChcXuo_u' />
-          <InstagramEmbedPic linkCode='C3qiIX4u3MR' />
+          <InstagramEmbedPic linkCode='C3qiIX4u3MR' /> */}
         </div>
       </section>
 
@@ -103,9 +103,9 @@ export default function Home() {
           Temos hotelzinho!
         </h2>
         <div className='flex flex-col justify-center items-center text-center md:flex-row'>
-          <div className='flex flex-1 justify-center items-center'>
+          {/* <div className='flex flex-1 justify-center items-center'>
             <InstagramEmbedPic linkCode='Cy3jIhUuWm0' />
-          </div>
+          </div> */}
           <div className='flex flex-1 flex-col justify-center items-center text-center'>
             <p className='text-lg text-gray-700 mb-4 sm:text-2xl sm:mb-8'>
               Matricule seu filho no hotelzinho agora mesmo! Clique no botão
@@ -150,17 +150,17 @@ export default function Home() {
       {/* Instagram Section */}
       <section className='mb-12'>
         <h2 className='text-3xl font-bold mb-4 text-center'>
-          Siga-nos no Instagram
+          Siga o nosso novo Instagram!
         </h2>
         <div className='flex justify-center mb-4'>
           <a
-            href='https://www.instagram.com/educandariolereaprender'
+            href='https://www.instagram.com/escolaela'
             target='_blank'
             rel='noopener noreferrer'
             className='flex flex-col items-center text-blue-600 hover:underline'
           >
             <FaInstagram className='w-12 h-12 mb-2' />
-            <span>@educandariolereaprender</span>
+            <span>@escolaela</span>
           </a>
         </div>
       </section>
