@@ -21,7 +21,7 @@ const MatriculaPage: React.FC = () => {
   const onSubmit: SubmitHandler<FormData> = (data) => {
     const { name, student_name, age, shift } = data;
     const message = `Olá! Meu nome é ${name} e gostaria de matricular *${student_name}* de *${age}*, preferêncialmente no turno da *${shift}*.`;
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=5581993171853&text=${encodeURIComponent(
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=5581993788114&text=${encodeURIComponent(
       message
     )}`;
     window.open(whatsappUrl, '_blank');

@@ -53,9 +53,9 @@ export default function Home() {
           </div>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
-          {/* <InstagramEmbedPic linkCode='C2ua5bqip-H' />
-          <InstagramEmbedPic linkCode='C48ChcXuo_u' />
-          <InstagramEmbedPic linkCode='C3qiIX4u3MR' /> */}
+          <InstagramEmbedPic linkCode='DAOvN9TPu4t' />
+          <InstagramEmbedPic linkCode='DAnvjFdS9mV' />
+          <InstagramEmbedPic linkCode='C_otiPXunaK' />
         </div>
       </section>
 
@@ -116,7 +116,7 @@ export default function Home() {
               Educandário Ler e Aprender
             </h2>
             <a
-              href='https://api.whatsapp.com/send?phone=5581993171853&text=Ol%C3%A1,%20tenho%20interesse%20no%20hotelzinho%20do%20Educand%C3%A1rio%20Ler%20e%20Aprender'
+              href='https://api.whatsapp.com/send?phone=5581993788114&text=Ol%C3%A1,%20tenho%20interesse%20no%20hotelzinho%20do%20Educand%C3%A1rio%20Ler%20e%20Aprender'
               target='_blank'
               rel='noopener noreferrer'
               className='inline-flex items-center px-8 py-4 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'

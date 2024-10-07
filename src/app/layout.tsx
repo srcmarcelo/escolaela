@@ -31,7 +31,7 @@ export default function RootLayout({
               <div className='text-base space-y-2'>
                 <div>
                   <p className='text-gray-700'>Telefone:</p>
-                  <p>(81) 99317-1853</p>
+                  <p>(81) 99378-8114</p>
                 </div>
                 <div>
                   <p className='text-gray-700'>Email:</p>
@@ -44,7 +44,7 @@ export default function RootLayout({
               </div>
               <div className='flex flex-col space-y-4 items-center justify-center'>
                 <a
-                  href='https://api.whatsapp.com/send?phone=5581993171853&text=Ol%C3%A1,%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20o%20Educand%C3%A1rio%20Ler%20e%20Aprender'
+                  href='https://api.whatsapp.com/send?phone=5581993788114&text=Ol%C3%A1,%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20o%20Educand%C3%A1rio%20Ler%20e%20Aprender'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='mt-4 inline-flex items-center px-8 py-4 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
