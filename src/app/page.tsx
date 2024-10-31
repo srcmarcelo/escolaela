@@ -29,7 +29,7 @@ export default function Home() {
         <div className='grid grid-cols-1 md:grid-cols-2 mb-8 gap-8'>
           <div className='bg-white p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105'>
             <h3 className='text-2xl font-bold mb-2'>
-              Ensinamos do maternal ao 5⁰ ano
+              Ensinamos do infantil ao 5⁰ ano
             </h3>
             <p className='text-gray-700'>Aqui seu filho aprende!</p>
           </div>
@@ -98,14 +98,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='mb-12 flex flex-col justify-center items-center'>
+      {/* <section className='mb-12 flex flex-col justify-center items-center'>
         <h2 className='text-3xl font-bold mb-4 text-center'>
           Temos hotelzinho!
         </h2>
         <div className='flex flex-col justify-center items-center text-center md:flex-row'>
-          {/* <div className='flex flex-1 justify-center items-center'>
+          <div className='flex flex-1 justify-center items-center'>
             <InstagramEmbedPic linkCode='Cy3jIhUuWm0' />
-          </div> */}
+          </div>
           <div className='flex flex-1 flex-col justify-center items-center text-center'>
             <p className='text-lg text-gray-700 mb-4 sm:text-2xl sm:mb-8'>
               Matricule seu filho no hotelzinho agora mesmo! Clique no botão
@@ -125,7 +125,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Address Section */}
       <section className='mb-12'>
