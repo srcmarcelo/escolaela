@@ -14,6 +14,14 @@ export default function ActionButtons() {
       </Button>
       <Button
         onClick={() =>
+          window.open('https://painel-ela.vercel.app/portal-do-aluno', '_blank')
+        }
+        className='p-8 bg-secondary'
+      >
+        Portal do aluno
+      </Button>
+      <Button
+        onClick={() =>
           window.open('https://painel-ela.vercel.app/painel', '_blank')
         }
         variant='outline'
